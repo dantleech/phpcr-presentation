@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -34,6 +34,12 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+        <style>
+.reveal section img {
+    border-style: none;
+}
+        </style>
 	</head>
 
 	<body>
@@ -52,7 +58,7 @@
 				<section>
                     <h2>Qu'est-ce que c'est PHPCR?</h2>
 					<p class="fragment">
-                        C'est une:
+                        C'est:
 					</p>
                     <ul>
                         <li class="fragment">PHP</li>
@@ -63,34 +69,44 @@
 
                 <section>
                     <section>
-                        <h2>C'est quoi une Content Repository?</h2>
-                        <blockquote cite="http://en.wikipedia.org/wiki/Content_repository">
-                            A content repository is a store of digital content with an associated set of data management, search and access methods allowing application-independent access to the content, rather like a digital library, but with the ability to store and modify content in addition to searching and retrieving (wikipedia)
-                        </blockquote>
-
+                        <h3>Et une Content Repository?</h3>
+                        <h4>Une repositorie de contenu est</h4>
+                        <ul>
+                            <li class="fragment">Entrepôt de contenu digitale</li>
+                            <li class="fragment">Une API pour le gestion, recherche et methods d'accés et de modification des donnes</li>
+                            <li class="fragment">La façade d'une couche consacre à le stockage et gestion de contenu</li>
+                        </ul>
                     </section>
                     <section>
-                        <img height="600" src="images/jcr-best-of-both-worlds.jpg" />
-                    </section>
-                </section>
-
-                <section>
-                    <h2>Pour quoi?</h2>
-                    <ul>
-                        <li>MySQL n'est pas une solution idéel</li>
+                        <h3>Qu'est que je peux metre dans une repositorie de contenu?</h3>
                         <ul>
-                            <li class="fragment">Pas de moyen native de stocker les donnes dans une hierarchie</li>
-                            <ul>
-                                <li class="fragment">Nested sets? Materialzed Path? Oui, mais il faut avoir une application layer - ce n'est pas naturel</li>
-                            </ul>
-                            <li class="fragment">Pas de moyen native pour stocker les donnes en format libre</li>
-                            <ul>
-                                <li class="fragment">Serialized arrays? Key =&gt; Value tables? Oui, mais c'est l'application layer aussi</li>
-                                <li class="fragment">Perdre de integrité</li>
-                            </ul>
-                            <li class="fragment">Versioning?</li>
-                            <li class="fragment">Multi language content?</li>
+                            <li>Donne structurée (nodes avec properties et enfants)</li>
+                            <li>Donne binaire (image, video, pdf, etc)</li>
                         </ul>
+                    </section>
+                    <section>
+                        <h3>Filesystems</h3>
+                        <ul>
+                            <li><img src="images/tick.png" /> Bon pour le stockage de fichiers (quelle suprise)</li>
+                            <li><img src="images/cross.png" /> Mauvaise pour le stockage de donne structurisé</li>
+                            <li><img src="images/cross.png" /> Mauvaise pour l'integrité des donnes</li>
+                            <li><img src="images/tick.png" /> Super bien pour le stockage des donnes en hierarchie</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>RDBMS (e.g. MySQL)</h3>
+                        <ul>
+                            <li><img src="images/tick.png" /> Bon pour le stockage de donne structuisé</li>
+                            <li><img src="images/tick.png" /> Excellente pour le integrité des donnes</li>
+                            <li><img src="images/cross.png" /> Pas bon pour le stockage de fichiers</li>
+                            <li><img src="images/cross.png" /> Mauvaise pour le stockage des donnes en hierachié</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>PHPCR</h3>
+                        <img height="500" src="images/jcr-best-of-both-worlds.jpg" />
+                        <center>(source: http://java.dzone.com/articles/java-content-repository-best)</center>
+                    </section>
                 </section>
 
                 <section>
@@ -150,8 +166,8 @@
                 <section>
                     <h2>Points saillant</h2>
                     <ul>
-                        <li>Stocker les donnes dans une arbre (hierarchical data model)
-                        <li>Faire les references entre les nodes (network data model)</li>
+                        <li>Stocker les donnes dans une arbre (modele hierarchique)
+                        <li>Faire les references entre les nodes (modele réseau)</li>
                         <li>Faire du versioning</li>
                         <li>Avoir plusieurs espaces du travail (staging / production)</li>
                         <li>Query - avec une globale full-text search</li>
@@ -253,8 +269,8 @@ foreach ($children as $child) {
                         <h2>Workspaces</h2>
                         <ul>
                             <li class="fragment">Une workspace contient une graph des nodes</li>
-                            <li class="fragment">Vous pouvez avoir pluseiurs workspaces</li>
-                            <li class="fragment">Tu peux "clone" les nodes entre les workspaces</li>
+                            <li class="fragment">C'est possible d'avoir pluseiurs workspaces</li>
+                            <li class="fragment">Node pourrait être cloné entre les workspaces</li>
                             <li class="fragment">Il y a une semblance avec le concepte de branches en GIT</li>
                         </ul>
                     </section>
@@ -275,7 +291,7 @@ foreach ($children as $child) {
                     <section>
                         <h2>Nodes and Properties</h2>
                         <ul>
-                            <li class="fragment">Chaque node est attribute d'une path</li>
+                            <li class="fragment">Chaque node est attribué d'une path</li>
                             <li class="fragment">Nodes contenient les properties</li>
                             <li class="fragment">Il y a les properties système</li>
                             <li class="fragment">Et les properties de user</li>
@@ -372,6 +388,7 @@ foreach ($children as $child) {
                             <li>Spcifier que une propertié doit être creer automatiquement</li>
                             <li>Enforcer le type d'une propertié</li>
                             <li>Specifier si une properté peut avoir plusieurs valeurs</li>
+                            <li class="fragment">Elles sont analogues à notion de <code>Class</code> en PHP</li>
                         </ul>
                     </section>
 
@@ -400,7 +417,8 @@ foreach ($children as $child) {
                         <h4>nt:unstructured</h4>
                         <p>Le node du maximum</p>
                         <pre><code data-trim contenteditable>
-        [nt:unstructured] orderable
+        [nt:unstructured] &gt; nt:base
+        orderable
         - * (UNDEFINED)
         - * (UNDEFINED) multiple
         + * = nt:unstructured multiple VERSION
@@ -431,8 +449,8 @@ foreach ($children as $child) {
                     <section>
                         <h2>Mixins</h2>
                         <ul>
-                            <li class="fragment">Permet une genre d'inheritance multiple</li>
-                            <li class="fragment">Elles sont analogues à notion de <code>Trait</code></li>
+                            <li class="fragment">Permet une genre d'heritage multiple</li>
+                            <li class="fragment">Elles sont analogues à notion de <code>Trait</code> en PHP</li>
                         </ul>
                     </section>
                     <section>
@@ -442,6 +460,16 @@ foreach ($children as $child) {
                             <li>nt:lastModified</li>
                             <li>nt:created</li>
                             <li>nt:versionable</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Implications ODM</h2>
+                        <ul>
+                            <li class="fragment">Node type = <code>Class</code></li>
+                            <li class="fragment">Mixin = <code>Trait</code></li>
+                            <li class="fragment">Hmm...</li>
+                            <li class="fragment">I can see a use case here... </li>
+                            <li class="fragment">Mais, ça c'est une autre subjet!</li>
                         </ul>
                     </section>
                 </section>
