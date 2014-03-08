@@ -52,7 +52,7 @@
 				<section>
                     <h2>Qu'est-ce que c'est PHPCR?</h2>
 					<p class="fragment">
-                        C'est:
+                        C'est une:
 					</p>
                     <ul>
                         <li class="fragment">PHP</li>
@@ -62,117 +62,385 @@
 				</section>
 
                 <section>
+                    <section>
+                        <h2>C'est quoi une Content Repository?</h2>
+                        <blockquote cite="http://en.wikipedia.org/wiki/Content_repository">
+                            A content repository is a store of digital content with an associated set of data management, search and access methods allowing application-independent access to the content, rather like a digital library, but with the ability to store and modify content in addition to searching and retrieving (wikipedia)
+                        </blockquote>
+
+                    </section>
+                    <section>
+                        <img height="600" src="images/jcr-best-of-both-worlds.jpg" />
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Pour quoi?</h2>
                     <ul>
-                        <li>Collection des interfaces:</li>
-                        <li class="fragment">NodeIntreface</li>
-                        <li class="fragment">SessionInterface</li>
-                        <li class="fragment">WorkspaceInterface</li>
-                        <li class="fragment">WorkspaceManagerInterface</li>
-                        <li class="fragment">VersionManagerInterface</li>
-                        <li class="fragment">etc</li>
+                        <li>MySQL n'est pas une solution idéel</li>
+                        <ul>
+                            <li class="fragment">Pas de moyen native de stocker les donnes dans une hierarchie</li>
+                            <ul>
+                                <li class="fragment">Nested sets? Materialzed Path? Oui, mais il faut avoir une application layer - ce n'est pas naturel</li>
+                            </ul>
+                            <li class="fragment">Pas de moyen native pour stocker les donnes en format libre</li>
+                            <ul>
+                                <li class="fragment">Serialized arrays? Key =&gt; Value tables? Oui, mais c'est l'application layer aussi</li>
+                                <li class="fragment">Perdre de integrité</li>
+                            </ul>
+                            <li class="fragment">Versioning?</li>
+                            <li class="fragment">Multi language content?</li>
+                        </ul>
+                </section>
+
+                <section>
+                    <h2>PHPCR <=> JCR</h2>
+                    <ul>
+                        <li>PHPCR est une implementation de le specification JCR - Java Content Repository</li>
                     </ul>
                 </section>
 
                 <section>
-                    <p>Qui permet de:</p>
+                    <section>
+                        <h2>JCR!</h2>
+                        <h3>Le specification</h3>
+                        <ul>
+                            <li><a href="http://www.day.com/specs/jcr/2.0/index.html">JCR 283 Content Repository Specification</a> (2010)</li>
+                            <li>277 pages!</li>
+                            <li>Basé sur <a href="http://www.day.com/specs/jcr/1.0/index.html">JCR-170 Specification</a> (2005)</li>
+                            <li>Crée par Day Software (maintenant Adobe)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Overview très vite</h2>
+                        <ul>
+                            <li class="fragment">Repository Model</li>
+                            <li class="fragment">Connecting</li>
+                            <li class="fragment">Reading</li>
+                            <li class="fragment">Query</li>
+                            <li class="fragment">Export</li>
+                            <li class="fragment">Node Type Discovery</li>
+                            <li class="fragment">Permissions and Capabilities</li>
+                            <li class="fragment">Writing</li>
+                            <li class="fragment">Import</li>
+                            <li class="fragment">Observation</li>
+                            <li class="fragment">Workspace Management</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Overview très vite</h2>
+                        <ul>
+                            <li class="fragment">Shareable Nodes</li>
+                            <li class="fragment">Versioning</li>
+                            <li class="fragment">Access Control Management</li>
+                            <li class="fragment">Lifecycle Management</li>
+                            <li class="fragment">Node Type Management</li>
+                            <li class="fragment">Retention and Hold</li>
+                            <li class="fragment">Transactions</li>
+                            <li class="fragment">Same-name siblings</li>
+                            <li class="fragment">Orderable Child Nodes</li>
+                            <li class="fragment">Repository Compliance</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Il y a beaucoup des choses!</h2>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Points saillant</h2>
                     <ul>
-                        <li class="fragment">Stocker les contenu (nodes) dans une arbre</li>
-                        <li class="fragment">Faire du versioning</li>
-                        <li class="fragment">Structured et unstructured content</li>
-                        <li class="fragment">Avoir plusieurs "workspaces"</li>
-                        <li class="fragment">Faire les references entre les nodes</li>
-                        <li class="fragment">Import</li>
-                        <li class="fragment">Export</li>
-                        <li class="fragment">Full text search</li>
-                        <li class="fragment">Bien plus ...</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3>Mieuller des deux mondes...</h3>
-                    <img src="images/jcr-best-of-both-worlds.jpg" />
-                </section>
-
-                <section>
-                    <h2>History...</h2>
-                </section>
-
-                <section>
-                    <h2>JCR!</h2>
-                    <h3>Le specification</h3>
-                    <ul>
-                        <li><a href="http://www.day.com/specs/jcr/2.0/index.html">JCR 283 Content Repository Specification</a> (2010)</li>
-                        <li>277 pages!</li>
-                        <li>Basé sur <a href="http://www.day.com/specs/jcr/1.0/index.html">JCR-170 Specification</a> (2005)</li>
-                        <li>Crée par Day Software (maintenant Adobe)</li>
+                        <li>Stocker les donnes dans une arbre (hierarchical data model)
+                        <li>Faire les references entre les nodes (network data model)</li>
+                        <li>Faire du versioning</li>
+                        <li>Avoir plusieurs espaces du travail (staging / production)</li>
+                        <li>Query - avec une globale full-text search</li>
                     </ul>
                 </section>
 
                 <section>
                     <h2>PHPCR</h2>
-                    <h3>Une implementation PHP</h3>
+                    <h3>Une implementation de JCR en PHP</h3>
                     <ul>
                         <li>Premier commit Feb 04 2008</li>
                         <li>C'est largement une implementation exacte</li>
-                        <li>Mais il y a <a href="https://github.com/phpcr/phpcr/blob/master/doc/JCR_TO_PHPCR.txt">des changements</a> qui etait fait (vois que Java est "strongly typed")</li>
-                        <li class="fragment">Voilà, ce n'est pas grande chose -- c'est que une librarie des interfaces</li>
+                        <li>Mais il y a <a href="https://github.com/phpcr/phpcr/blob/master/doc/JCR_TO_PHPCR.txt">les petite changements</a></li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>THE END</h2>
-                    <h3 class="fragment">Questions?</h3>
-                    <h3 class="fragment">err, bad joke. on va continuer..</h3>
+                    <h2>Comment ça fonctionne?</h2>
                 </section>
 
                 <section>
-                    <h2>Implementation</h2>
-                    <h3 class="fragment">Oui, c'est singular..,</h3>
+                    <img src="images/phpcr_model.svg"/>
                 </section>
 
                 <section>
-                    <h3>Jackalope</h3>
-                    <ul>
-                        <li>Librarie PHP (naturellement)</li>
-                        <li>C'est une couche qui permet de implementer facilement les "transports"</li>
-                        <li>Parce qu'il pris en charge les taches commun</li>
-                        <li>Il y a une transporte pour le reference implementation, <a href="https://jackrabbit.apache.org/">Apache Jackrabbit</a></li>
-                        <li>et aussi une transporte pour <a href="https://github.com/jackalope/jackalope-doctrine-dbal">doctrine-dbal</a></li>
-                    </ul>
+                    <h2>Example Jackalope Doctrine DBAL</h2>
+                    <pre><code>
+// chaque implementation doit fournir une repository factory
+$factory = new \Jackalope\RepositoryFactoryDoctrineDBAL();
+
+$repository = $factory->getRepository();
+
+$credentials = new \PHPCR\SimpleCredentials('admin', 'mypassword');
+$session = $repository->login($credentials);
+
+$node = $session->getNode('/hello');
+
+// profit
+$children = $node->getNodes(); // return children nodes
+foreach ($children as $child) {
+    $string = $child->getProperty('world');
+    echo $string;
+}
+</code></pre>
                 </section>
 
                 <section>
-                <!-- DIAGRAM OF JACKALOPE HERE !-->
+                    <h2>Example Jackalope Jackrabbit</h2>
+                    <pre><code>
+// chaque implementation doit fournir une repository factory
+$factory = new \Jackalope\RepositoryFactoryJackrabbit();
+
+$repository = $factory->getRepository();
+
+$credentials = new \PHPCR\SimpleCredentials('admin', 'mypassword');
+$session = $repository->login($credentials);
+
+$node = $session->getNode('/hello');
+
+// encore de profit
+$children = $node->getNodes();
+foreach ($children as $child) {
+    $string = $child->getProperty('world');
+    echo $string;
+}
+</code></pre>
                 </section>
 
                 <section>
-                    <h2>Mais on peux revé ...</h2>
-                    <h3>WIP et speculations</h3>
-                    <ul>
-                        <li>Faire une implementation qui utilise git!</li>
-                        <li>WIP pour <a href="https://github.com/chirimoya/jackalope/tree/MongoDB">MongoDB</a></li>
-                        <li>WIP pour <a href="https://github.com/midgardproject/phpcr-midgard2">midgard2</a></li>
-                        <li>Mais ils ne sont pas encore maintainer</li>
-                        <li>On a besoin des implementors!!</li>
-                    </ul>
+                    <p class="fragment">RepositoryFactoryJackDoctrineDbal</p>
+                    <p>vs</p>
+                    <p class="fragment">RepositoryFactoryJackrabbit</p>
+                    <p class="fragment">Tout le reste est pareil!</p>
                 </section>
 
                 <section>
-                    <h2>Le session</h2>
+                    <section>
+                        <h2>The Repository Model</h2>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-1.png"/>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-2.png"/>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-3.png"/>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-4.png"/>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-5.png"/>
+                    </section>
                 </section>
 
+                <section>
+                    <section>
+                        <h2>Workspaces</h2>
+                        <ul>
+                            <li class="fragment">Une workspace contient une graph des nodes</li>
+                            <li class="fragment">Vous pouvez avoir pluseiurs workspaces</li>
+                            <li class="fragment">Tu peux "clone" les nodes entre les workspaces</li>
+                            <li class="fragment">Il y a une semblance avec le concepte de branches en GIT</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Workspaces</h2>
+                        <h3>Exemple de usage: Sandbox / Production</h2>
+                        <ul>
+                            <li>Les utilisateurs pourrait faire leur modifications dans une workspace "sandbox"</li>
+                            <li>Quand les modifications sont fait, ils peuvent publier leur modifications vers l'environment de production</li>
+                        </ul>
+                    </section>
+                </section>
 
                 <section>
-                    <h2>Nodes and Properties</h2>
-                    <pre><code data-trim contenteditable>
-$node = new \PHPCR\NodeInterface;
-$node->setName('foobar');
+                    <section>
+                        <h2>Nodes and Properties</h2>
+                    </section>
+                    <section>
+                        <h2>Nodes and Properties</h2>
+                        <ul>
+                            <li class="fragment">Chaque node est attribute d'une path</li>
+                            <li class="fragment">Nodes contenient les properties</li>
+                            <li class="fragment">Il y a les properties système</li>
+                            <li class="fragment">Et les properties de user</li>
+                            <li class="fragment">Properties peut utiliser les namespaces</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Nodes and Properties</h2>
+                        <pre><code>
+/
+    node1/
+    |   - foobar = barfoo
+    |   - barfoo = foobar
+    |   ChildNode1/
+    |   ChildNode2/
+    article/
+        - title: Titre de mon article
+        - content: Ceci est le contenu de mon article
+        - tags: [ tag1, tag2, tag3 ]
+        comments/
+            comment1/
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Nodes and Properties</h2>
+                        <pre><code>
+/
+    node1/
+    |   - jcr:primaryType = nt:unstructured
+    |   - jcr:uuid = 842e61c0-09ab-42a9-87c0-308ccc90e6f4
+    |   - jcr:mixinTypes = [ mix:referenceable ]
+    |   - foobar = barfoo
+    |   - barfoo = foobar
+    |   ChildNode1/
+    |   ChildNode2/
+    article/
+        - jcr:primaryType = mon_type_article
+        - jcr:mixinTypes = [ mix:versionable, mix:lastModified ]
+        - title: Titre de mon article
+        - content: Ceci est le contenu de mon article
+        - tags: [ tag1, tag2, tag3 ]
+        comments/
+            comment1/
+                        </code></pre>
+                    </section>
 
-$rootNode = $session->getNode('/');
-$node->setParent($parent);
+                    <section data-background="#bbb">
+                        <h2>Node Hierarchy</h2>
+                        <img src="images/node_hierarchy.svg" />
+                    </section>
 
-$session->save(); // flush the session
-                    </code></pre>
+                    <section>
+                        <h2>References</h2>
+                        <ul>
+                            <li class="fragment">Nodes peut être "referenceable"</li>
+                            <li class="fragment">Les nodes referencable sont attribué une Universally Unique Identifier (UUID)</li>
+                            <li class="fragment">Ils pourais être referencé par peu importe quelles autres nodes</li>
+                            <li class="fragment">Dans une manière "strong" ou "weak" (integrete referentiale)</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>References</h2>
+                        <ul>
+                            <li>Exemple - catégoriés</li>
+                            <li>Vous pouvez faire une lien avec une catégorié avec peu importe quelle node</li>
+                            <li>e.g. une article, une produit, une formulaire</li>
+                            <li>Brèf, si un node est referencable, il est refenceable par tout</li>
+                            <li>Parceque il est attribué une UUID</li>
+                        </ul>
+                    </section>
+
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Node Types</h2>
+                        <ul>
+                            <li class="fragment">Chaque node a un type primarire</li>
+                            <li class="fragment">Node Type &lt;=&gt; Schema</li>
+                            <li class="fragment">Node types sont héritable</li>
+                            <li class="fragment">Ils héritent tous de le type nt:base</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Node Types</h2>
+                        <img src="images/nodetype_hierarchy.svg" />
+                    </section>
+                    <section>
+                        <h2>Node Types</h2>
+                        <ul>
+                            <li>Declarer que une propertie est requis</li>
+                            <li>Declarer que une certaine child est requis</li>
+                            <li>Spcifier que une propertié doit être creer automatiquement</li>
+                            <li>Enforcer le type d'une propertié</li>
+                            <li>Specifier si une properté peut avoir plusieurs valeurs</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Node Types</h2>
+                        <ul>
+                            <li>Sont typiquement definé avec les fichers "CND"</li>
+                            <li>CND =&gt; <b>C</b>ompact <b>N</b>ode Type <b>D</b>efintion</li>
+                            <li>C'est une DSL pour l'expression des node types</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Quelques node types de defaut</h2>
+                        <h4>nt:base</h4>
+                        <p>Le node du minimum</p>
+                        <pre><code data-trim contenteditable>
+    [nt:base]
+    - jcr:primaryType (NAME) autocreated mandatory protected COMPUTE
+    - jcr:mixinTypes  (NAME) autocreated mandatory protected multiple COMPUTE
+                        </pre></code>
+
+                        <h4>nt:unstructured</h4>
+                        <p>Le node du maximum</p>
+                        <pre><code data-trim contenteditable>
+        [nt:unstructured] orderable
+        - * (UNDEFINED)
+        - * (UNDEFINED) multiple
+        + * = nt:unstructured multiple VERSION
+                        </code></pre>
+                    </section>
+
+                    <section>
+                        <h4>nt:version</h4>
+                        <p>Le node du version</p>
+                        <pre><code data-trim contenteditable>
+        [nt:resource] &gt; mix:referenceable
+        - jcr:encoding     (STRING)
+        - jcr:mimeType     (STRING) mandatory
+        - jcr:data         (BINARY) mandatory primary
+        - jcr:lastModified (DATE)   mandatory IGNORE
+                        </pre></code>
+
+                        <h4>nt:resource</h4>
+                        <p>Pour stocker les binaires avec le metadata ..</p>
+                        <pre><code data-trim contenteditable>
+                            [nt:resource] &gt; mix:referenceable
+            - jcr:encoding     (STRING)
+            - jcr:mimeType     (STRING) mandatory
+            - jcr:data         (BINARY) mandatory primary
+            - jcr:lastModified (DATE)   mandatory IGNORE
+                        </pre></code>
+                    </section>
+                    <section>
+                        <h2>Mixins</h2>
+                        <ul>
+                            <li class="fragment">Permet une genre d'inheritance multiple</li>
+                            <li class="fragment">Elles sont analogues à notion de <code>Trait</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Mixins</h2>
+                        <ul>
+                            <li>nt:title</li>
+                            <li>nt:lastModified</li>
+                            <li>nt:created</li>
+                            <li>nt:versionable</li>
+                        </ul>
+                    </section>
                 </section>
 
                 <section>
@@ -218,73 +486,34 @@ $session->save(); // flush the session
                     <h3>Une "domain specific language" (DSL) pour le deifinition de node types</h3>
                 </section>
 
-                <section>
-                    <h2>Quelques node types de defaut</h2>
-                    <h4>nt:base</h4>
-                    <p>Le node du minimum</p>
-                    <pre><code data-trim contenteditable>
-[nt:base]
-- jcr:primaryType (NAME) autocreated mandatory protected COMPUTE
-- jcr:mixinTypes  (NAME) autocreated mandatory protected multiple COMPUTE
-                    </pre></code>
 
-                    <h4>nt:unstructured</h4>
-                    <p>Le node du maximum</p>
-                    <pre><code data-trim contenteditable>
-[nt:unstructured] orderable
-- * (UNDEFINED)
-- * (UNDEFINED) multiple
-+ * = nt:unstructured multiple VERSION
-                    </code></pre>
-                </section>
+    <section>
+        <h2>Import et Export</h2>
+    </section>
 
-                <section>
-                    <h4>nt:version</h4>
-                    <p>Le node du version</p>
-                    <pre><code data-trim contenteditable>
-[nt:resource] &gt; mix:referenceable
-- jcr:encoding     (STRING)
-- jcr:mimeType     (STRING) mandatory
-- jcr:data         (BINARY) mandatory primary
-- jcr:lastModified (DATE)   mandatory IGNORE
-                    </pre></code>
+    <section>
+        <h2>References</h2>
+    </section>
 
-                    <h4>nt:resource</h4>
-                    <p>Pour stocker les binaires avec le metadata ..</p>
-                    <pre><code data-trim contenteditable>
-                [nt:resource] > mix:referenceable
-- jcr:encoding     (STRING)
-- jcr:mimeType     (STRING) mandatory
-- jcr:data         (BINARY) mandatory primary
-- jcr:lastModified (DATE)   mandatory IGNORE</section>
-                    </pre></code>
-                </section>
+    <section>
+        <h2>References and Resources</h2>
+        <ul>
+            <li><a href="http://java.dzone.com/articles/java-content-repository-best">JCR - Best of both worlds (with nice diagram)</a></li>
+            <li><a href="http://wiki.apache.org/jackrabbit/NodeTypeRegistry">Built in node types (jackrabbit wiki)</a></li>
+            <li><a href="http://staging.yproximite.fr/nagios3/">Marmelab PHPCR Browser</a></li>
+            <li><a href="https://github.com/phpcr/phpcr-shell">PHPCR Shell</a></li>
+        </ul>
+    </section>
+</div>
 
-                <section>
-                    <h2>Import et Export</h2>
-                </section>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
 
-                <section>
-                    <h2>References</h2>
-                </section>
-
-                <section>
-                    <h2>References and Resources</h2>
-                    <ul>
-                        <li><a href="http://java.dzone.com/articles/java-content-repository-best">JCR - Best of both worlds (with nice diagram)</a></li>
-                        <li><a href="http://wiki.apache.org/jackrabbit/NodeTypeRegistry">Built in node types (jackrabbit wiki)</a></li>
-                    </ul>
-                </section>
-            </div>
-
-            <script src="lib/js/head.min.js"></script>
-            <script src="js/reveal.min.js"></script>
-
-            <script>
+<script>
 
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
+Reveal.initialize({
 controls: true,
 progress: true,
 history: true,
@@ -305,10 +534,10 @@ dependencies: [
 { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-            ]
-            });
+]
+});
 
-            </script>
+</script>
 
-            </body>
-            </html>
+</body>
+</html>
