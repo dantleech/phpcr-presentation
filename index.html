@@ -379,9 +379,12 @@ foreach ($children as $child) {
                         <h2>Node Types</h2>
                         <ul>
                             <li>Sont typiquement definé avec les fichers "CND"</li>
-                            <li>CND =&gt; <b>C</b>ompact <b>N</b>ode Type <b>D</b>efintion</li>
-                            <li>C'est une DSL pour l'expression des node types</li>
                         </ul>
+                    </section>
+
+                    <section>
+                        <h2>CND - <a href="https://jackrabbit.apache.org/node-type-notation.html">Compact Node Type Definition</a></h2>
+                        <h3>Une "domain specific language" (DSL) pour le deifinition de node types</h3>
                     </section>
 
                     <section>
@@ -444,66 +447,150 @@ foreach ($children as $child) {
                 </section>
 
                 <section>
-                    <h2>Namespaces</h2>
+                    <section>
+                        <h2>Query</h2>
+                        <ul>
+                            <li>PHPCR fournit une interface de query objet orientée</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Query</h2>
+                        <pre><code>
+    $session = // we get the session
+    $workspace = $session->getWorkspace();
+    $queryManager = $workspace->getQueryManager();
+    $qom = $queryManager->getQOMFactory();
+
+    $source = $qom->selector('s', '[nt:unstructured]');
+    $constraint = $qom->comparison(
+        $qom->nodeLocalName('s'),
+        QOMConstants::JCR_OPERATOR_NOT_EQUAL_TO,
+        $qom->literal('foobar')
+    );
+    $query = $qomFactory->createQuery($source, $constraint, array(), array());
+    $queryResult = $query->execute();
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Query</h2>
+                        <p>Heureusement il est possible aussi de faire les queries en mode string</p>
+                        <pre><code>
+// JCR-SQL2
+$sql = "SELECT * FROM [nt:unstructured] AS s WHERE LOCALNAME('s') = 'foobar'";
+$query = $queryManager->createQuery($sql, 'JCR-SQL2');
+$queryResult = $query->execute();
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Query</h2>
+                        <ul>
+                            <li class="fragment">Pas d'aggregation!</li>
+                            <li class="fragment">Pas de UPDATE, INSERT, etc.</li>
+                            <li class="fragment">Full text search!</li>
+                            <ul>
+                                <li class="fragment">Possiblité de cherche le repositorié entière</li>
+                            </ul>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Versioning</h2>
+                        <p>Versioning est activé pour une node avec le mixin "mix:versionable"</p>
+                        <pre><code>
+$node->addMixin('mix:versionable');
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Versioning</h2>
+                        <pre><code>
+$vm = $session->getWorkspace()->getVersionManager();
+$node = $session->getNode('/this/is/a/versionable/node');
+
+$node->setProperty('title', 'Hello World!');
+$session->save();
+// checkpoint checks in node and then checks it out again
+// -- checked out nodes are modifiable
+$vm->checkpoint($node->getPath();
+
+$vm->setProperty('title', 'Foobar');
+
+// checkin the node and leave it in a read only state
+$version = $vm->checkin($node->getPath());
+$previous = $version->getLinearPredecessor();
+
+echo $previous->getProperty('title');
+// OUTPUT: Hello World!
+                        </code></pre>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Import / Export</h2>
+                        <ul>
+                            <li>Exporter les nodes à partir d'une certaine path dans l'hierarchie</li>
+                            <li>Importer les nodes à une certataine path dans l'hierachié</li>
+                            <li>Tous est fait dans une format XML</li>
+                            <li>Facile de migré entre les differentes repositories</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Import / Export</h2>
+                        <pre><code>
+$stream = fopen('my_content.xml', 'w');
+$session->exportDocumentView(
+    '/path/to/what/i/want',
+    $stream,
+);
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Import / Export</h2>
+                        <pre><code>
+$session->importXml('/import/to/here', 'my_content.xml');
+                        </code></pre>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Autre choses</h2>
+                    </section>
+                    <section>
+                        <h2>Autre choses</h2>
+                        <h3>Access Control</h3>
+                        <ul>
+                            <li>Savori si une utilisateur a permission de faire une certaine type d'operation sur une certaine node selon le session</li>
+                            <li>Possiblitie de creer et appliquer policies avec classes de type "AccessControlPolicyInterface" classes qui pourait contient logique au besoin</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Autre choses</h2>
+                        <h3>Observation</h3>
+                        <ul>
+                            <li>Events</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Autre choses</h2>
+                        <h3>Locking et Transactions</h3>
+                    </section>
+                    <section>
+                        <h2>Autre choses</h2>
+                        <h3>etc</h3>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>References and Resources</h2>
                     <ul>
-                        <li>System namespace</li>
+                        <li><a href="http://java.dzone.com/articles/java-content-repository-best">JCR - Best of both worlds (with nice diagram)</a></li>
+                        <li><a href="http://wiki.apache.org/jackrabbit/NodeTypeRegistry">Built in node types (jackrabbit wiki)</a></li>
+                        <li><a href="http://staging.yproximite.fr/nagios3/">Marmelab PHPCR Browser</a></li>
+                        <li><a href="https://github.com/phpcr/phpcr-shell">PHPCR Shell</a></li>
                     </ul>
                 </section>
-
-                <section>
-                    <h2>Versioning</h2>
-                    <!-- Code example here !-->
-                </section>
-
-                <section>
-                    <h2>Workspaces</h2>
-                    <!-- WORKSPACE DIAGRAM !-->
-                    <ul>
-                        <li>Avoir plusieurs espaces du travail en parallel</li>
-                        <li>C'est une peu comme le concepte du branches en GIT</li>
-                        <li>Use case: envinronments de staging et production</li>
-                        <li>Faire les changements sur le backoffice</li>
-                        <li>Les changements sont fait sur le workspace "staging"</li>
-                        <li>Quand les changements sont prêt, faire "publisher" vers le workspace "production"</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <!-- Code example here !-->
-                </section>
-
-                <section>
-                    <h2>Node Types</h2>
-                    <ul>
-                        <li>Structured et unstructured nodes</li>
-                        <li>Constraints: Analagous au le schema du table en MySQL</li>
-                        <li>Behavior: Definier comment agir le node</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>CND - <a href="https://jackrabbit.apache.org/node-type-notation.html">Compact Node Type Definition</a></h2>
-                    <h3>Une "domain specific language" (DSL) pour le deifinition de node types</h3>
-                </section>
-
-
-    <section>
-        <h2>Import et Export</h2>
-    </section>
-
-    <section>
-        <h2>References</h2>
-    </section>
-
-    <section>
-        <h2>References and Resources</h2>
-        <ul>
-            <li><a href="http://java.dzone.com/articles/java-content-repository-best">JCR - Best of both worlds (with nice diagram)</a></li>
-            <li><a href="http://wiki.apache.org/jackrabbit/NodeTypeRegistry">Built in node types (jackrabbit wiki)</a></li>
-            <li><a href="http://staging.yproximite.fr/nagios3/">Marmelab PHPCR Browser</a></li>
-            <li><a href="https://github.com/phpcr/phpcr-shell">PHPCR Shell</a></li>
-        </ul>
-    </section>
 </div>
 
 <script src="lib/js/head.min.js"></script>
