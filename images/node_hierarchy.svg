@@ -10,18 +10,165 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="768.50531"
-   height="366.69565"
-   id="svg6681"
+   width="2656.7161"
+   height="1847.2004"
+   id="svg4003"
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="node_hierarchy.svg">
   <defs
-     id="defs6683">
+     id="defs4005">
+    <linearGradient
+       id="linearGradient4521">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4523" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop4525" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-2"
+       id="radialGradient4544-4"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient4521-2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4523-9" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop4525-1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-4"
+       id="radialGradient4661-9"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient4521-4">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4523-7" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop4525-8" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-4"
+       id="radialGradient4681-6"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5326">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5328" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5330" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-4"
+       id="radialGradient4677-6"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5333">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5335" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5337" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-4"
+       id="radialGradient4679-6"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5340">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5342" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5344" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-4"
+       id="radialGradient4562-3"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5347">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5349" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5351" />
+    </linearGradient>
+    <radialGradient
+       r="48.987324"
+       fy="300.80869"
+       fx="299.51022"
+       cy="300.80869"
+       cx="299.51022"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5383"
+       xlink:href="#linearGradient4521-4"
+       inkscape:collect="always" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient6518"
+       id="radialGradient5191-9"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -42,7 +189,7 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient6516"
+       id="radialGradient5189-7"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -50,20 +197,20 @@
        fy="300.80869"
        r="48.987324" />
     <linearGradient
-       id="linearGradient6614">
+       id="linearGradient5532">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
-         id="stop6616" />
+         id="stop5534" />
       <stop
          style="stop-color:#a2c2f2;stop-opacity:1;"
          offset="1"
-         id="stop6618" />
+         id="stop5536" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient6514"
+       id="radialGradient5187-7"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -71,20 +218,20 @@
        fy="300.80869"
        r="48.987324" />
     <linearGradient
-       id="linearGradient6621">
+       id="linearGradient5539">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
-         id="stop6623" />
+         id="stop5541" />
       <stop
          style="stop-color:#a2c2f2;stop-opacity:1;"
          offset="1"
-         id="stop6625" />
+         id="stop5543" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient6512"
+       id="radialGradient5185-9"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -92,20 +239,20 @@
        fy="300.80869"
        r="48.987324" />
     <linearGradient
-       id="linearGradient6628">
+       id="linearGradient5546">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
-         id="stop6630" />
+         id="stop5548" />
       <stop
          style="stop-color:#a2c2f2;stop-opacity:1;"
          offset="1"
-         id="stop6632" />
+         id="stop5550" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient6510"
+       id="radialGradient5183-4"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -113,16 +260,299 @@
        fy="300.80869"
        r="48.987324" />
     <linearGradient
-       id="linearGradient6635">
+       id="linearGradient5553">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
          offset="0"
-         id="stop6637" />
+         id="stop5555" />
       <stop
          style="stop-color:#a2c2f2;stop-opacity:1;"
          offset="1"
-         id="stop6639" />
+         id="stop5557" />
     </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5181-0"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5560">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5562" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5564" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5111-5"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5567">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5569" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5571" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5109-4"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5574">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5576" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5578" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5107-2"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5581">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5583" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5585" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5105-1"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5588">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5590" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5592" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5103-8"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5595">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5597" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5599" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient5101-3"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5602">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5604" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5606" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4839-8"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5609">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5611" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5613" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4837-3"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5616">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5618" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5620" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4835-8"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5623">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5625" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5627" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4833-7"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5630">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5632" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5634" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4831-0"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5637">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5639" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5641" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient4829-0"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <linearGradient
+       id="linearGradient5644">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5646" />
+      <stop
+         style="stop-color:#a2c2f2;stop-opacity:1;"
+         offset="1"
+         id="stop5648" />
+    </linearGradient>
+    <radialGradient
+       r="48.987324"
+       fy="300.80869"
+       fx="299.51022"
+       cy="300.80869"
+       cx="299.51022"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient5751"
+       xlink:href="#linearGradient4521-0"
+       inkscape:collect="always" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
@@ -133,31 +563,10 @@
        fx="299.51022"
        fy="300.80869"
        r="48.987324" />
-    <linearGradient
-       id="linearGradient6642">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop6644" />
-      <stop
-         style="stop-color:#a2c2f2;stop-opacity:1;"
-         offset="1"
-         id="stop6646" />
-    </linearGradient>
-    <radialGradient
-       r="48.987324"
-       fy="300.80869"
-       fx="299.51022"
-       cy="300.80869"
-       cx="299.51022"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient6679"
-       xlink:href="#linearGradient4521-0"
-       inkscape:collect="always" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient7134"
+       id="radialGradient6510"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -167,7 +576,7 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient7142"
+       id="radialGradient6512"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -177,7 +586,7 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient7146"
+       id="radialGradient6514"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -187,7 +596,17 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4521-0"
-       id="radialGradient7150"
+       id="radialGradient6516"
+       gradientUnits="userSpaceOnUse"
+       cx="299.51022"
+       cy="300.80869"
+       fx="299.51022"
+       fy="300.80869"
+       r="48.987324" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4521-0"
+       id="radialGradient6518"
        gradientUnits="userSpaceOnUse"
        cx="299.51022"
        cy="300.80869"
@@ -202,259 +621,1230 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="362.68708"
-     inkscape:cy="96.208793"
+     inkscape:zoom="9.8641976"
+     inkscape:cx="431.10375"
+     inkscape:cy="1538.9466"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="false"
-     fit-margin-top="20"
-     fit-margin-left="20"
-     fit-margin-right="20"
-     fit-margin-bottom="20"
      inkscape:window-width="1278"
      inkscape:window-height="779"
      inkscape:window-x="0"
      inkscape:window-y="19"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
-     id="metadata6686">
+     id="metadata4008">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Repository"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(232.05854,-103.4911)">
-    <path
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
-       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
-       transform="matrix(0.65725858,0,0,0.65725858,-306.45437,-53.968713)"
-       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
-       sodipodi:ry="48.487324"
-       sodipodi:rx="48.487324"
-       sodipodi:cy="318.99142"
-       sodipodi:cx="286.88333"
-       id="path6446"
-       style="fill:url(#radialGradient6679);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       sodipodi:type="arc" />
-    <text
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
-       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
-       sodipodi:linespacing="125%"
-       id="text6448"
-       y="164.82985"
-       x="-120.33936"
-       style="font-size:26.29034233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="164.82985"
-         x="-120.33936"
-         id="tspan6450"
-         sodipodi:role="line">/</tspan></text>
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#radialGradient7134);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="path7128"
-       sodipodi:cx="286.88333"
-       sodipodi:cy="318.99142"
-       sodipodi:rx="48.487324"
-       sodipodi:ry="48.487324"
-       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
-       transform="matrix(0.65725858,0,0,0.65725858,-306.45437,27.694852)"
+     style="display:inline"
+     transform="translate(319.70819,67.386833)">
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#374548;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5193"
+       width="2133.4421"
+       height="1555.6349"
+       x="-319.20819"
+       y="-66.886833"
+       rx="20"
        inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
        inkscape:export-xdpi="26.889999"
        inkscape:export-ydpi="26.889999" />
     <text
        xml:space="preserve"
-       style="font-size:26.29034233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="-143.81287"
-       y="246.49341"
-       id="text7130"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-234.35539"
+       y="1779.672"
+       id="text5195"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
        inkscape:export-xdpi="26.889999"
        inkscape:export-ydpi="26.889999"><tspan
          sodipodi:role="line"
-         id="tspan7132"
-         x="-143.81287"
-         y="246.49341">cms</tspan></text>
-    <path
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
-       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
-       transform="matrix(1.3804115,0,0,0.6542365,-512.50647,111.6503)"
-       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
-       sodipodi:ry="48.487324"
-       sodipodi:rx="48.487324"
-       sodipodi:cy="318.99142"
-       sodipodi:cx="286.88333"
-       id="path7136"
-       style="fill:url(#radialGradient7142);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       sodipodi:type="arc" />
+         id="tspan5197"
+         x="-234.35539"
+         y="1779.672">REPO</tspan></text>
     <text
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
-       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
        sodipodi:linespacing="125%"
-       id="text7138"
-       y="329.48483"
-       x="-165.40851"
-       style="font-size:26.29034233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="329.48483"
-         x="-165.40851"
-         id="tspan7140"
-         sodipodi:role="line">articles</tspan></text>
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#radialGradient7146);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       id="path7144"
-       sodipodi:cx="286.88333"
-       sodipodi:cy="318.99142"
-       sodipodi:rx="48.487324"
-       sodipodi:ry="48.487324"
-       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
-       transform="matrix(0.65725858,0,0,0.65725858,-368.42446,207.39719)"
+       id="text5199"
+       y="43.123783"
+       x="-301.9324"
+       style="font-size:99.90814209px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="43.123783"
+         x="-301.9324"
+         id="tspan5201"
+         sodipodi:role="line">REPOSITORY</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Workspaces"
+     style="display:inline"
+     transform="translate(319.70819,67.386833)">
+    <rect
+       rx="20"
+       y="94.593979"
+       x="795.43103"
+       height="612.15247"
+       width="947.52307"
+       id="rect4745"
+       style="fill:#b7c4c8;fill-opacity:1;stroke:#374548;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
        inkscape:export-xdpi="26.889999"
        inkscape:export-ydpi="26.889999" />
     <path
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
-       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
-       transform="matrix(0.65725858,0,0,0.65725858,-231.33911,208.33613)"
+       transform="translate(887.39517,-92.475679)"
        d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
        sodipodi:ry="48.487324"
        sodipodi:rx="48.487324"
        sodipodi:cy="318.99142"
        sodipodi:cx="286.88333"
-       id="path7148"
-       style="fill:url(#radialGradient7150);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       sodipodi:type="arc" />
+       id="path4747"
+       style="fill:url(#radialGradient5751);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4749"
+       y="240.42004"
+       x="1149.8953"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="240.42004"
+         x="1149.8953"
+         id="tspan4751"
+         sodipodi:role="line">n1</tspan></text>
+    <path
+       transform="translate(1008.8237,88.952893)"
+       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+       sodipodi:ry="48.487324"
+       sodipodi:rx="48.487324"
+       sodipodi:cy="318.99142"
+       sodipodi:cx="286.88333"
+       id="path4753"
+       style="fill:url(#radialGradient4831-0);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4755"
+       y="421.31506"
+       x="1271.681"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="421.31506"
+         x="1271.681"
+         id="tspan4757"
+         sodipodi:role="line">n3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:26.29034233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="-195.45462"
-       y="427.1347"
-       id="text7160"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1271.681"
+       y="421.31506"
+       id="text4759"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
        inkscape:export-xdpi="26.889999"
        inkscape:export-ydpi="26.889999"><tspan
          sodipodi:role="line"
-         id="tspan7162"
-         x="-195.45462"
-         y="427.1347">a1</tspan></text>
-    <text
-       inkscape:export-ydpi="26.889999"
-       inkscape:export-xdpi="26.889999"
+         id="tspan4761"
+         x="1271.681"
+         y="421.31506">n3</tspan></text>
+    <g
+       style="display:inline"
+       transform="translate(914.53807,78.791901)"
+       id="g4763"
        inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(94.285716,184.28571)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path4765"
+         style="fill:url(#radialGradient4833-7);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4767"
+         y="516.64789"
+         x="357.14288"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="516.64789"
+           x="357.14288"
+           id="tspan4769"
+           sodipodi:role="line">n4</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(914.53807,78.791901)"
+       id="g4771"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient4835-8);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path4773"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(291.42857,184.28571)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="554.28577"
+         y="516.64789"
+         id="text4775"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4777"
+           x="554.28577"
+           y="516.64789">n5</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4779"
+       d="m 2081.2504,266.81496 67.4847,100.83014"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4781"
+       d="m 2034.1309,270.63197 -42.562,93.19612"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4783"
+       d="m 2175.707,456.43164 0,77.15007"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4785"
+       d="m 2212.0491,440.04311 124.4588,109.92713"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <g
+       style="display:inline"
+       transform="translate(914.53807,123.23861)"
+       id="g4787"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(-110,-34.28572)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path4789"
+         style="fill:url(#radialGradient4837-3);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4791"
+         y="298.07645"
+         x="152.85713"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="298.07645"
+           x="152.85713"
+           id="tspan4793"
+           sodipodi:role="line">n2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="152.85713"
+         y="298.07645"
+         id="text4795"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4797"
+           x="152.85713"
+           y="298.07645">n2</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(918.10947,78.791901)"
+       id="g4799"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient4839-8);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path4801"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(-115.82601,184.28571)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="147.03116"
+         y="516.64789"
+         id="text4803"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4805"
+           x="147.03116"
+           y="516.64789">n6</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path4807"
+       d="m 1970.7936,456.42766 -0.9991,77.15803"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
        sodipodi:linespacing="125%"
-       id="text7164"
-       y="427.1347"
-       x="-58.369259"
-       style="font-size:26.29034233px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="427.1347"
-         x="-58.369259"
-         id="tspan7166"
-         sodipodi:role="line">a2</tspan></text>
+       id="text4825"
+       y="156.81116"
+       x="814.02606"
+       style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="156.81116"
+         x="814.02606"
+         id="tspan4827"
+         sodipodi:role="line">WORKSPACE 2</tspan></text>
+    <rect
+       style="fill:#b7c4c8;fill-opacity:1;stroke:#374548;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5033"
+       width="947.52307"
+       height="612.15247"
+       x="795.43109"
+       y="797.66016"
+       rx="20"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <g
+       id="g6411">
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(887.39517,610.59049)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path5035"
+         style="fill:url(#radialGradient5101-3);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         sodipodi:linespacing="125%"
+         id="text5037"
+         y="943.48621"
+         x="1149.8953"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="943.48621"
+           x="1149.8953"
+           id="tspan5039"
+           sodipodi:role="line">n1</tspan></text>
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(1008.8237,792.01906)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path5041"
+         style="fill:url(#radialGradient5103-8);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         sodipodi:linespacing="125%"
+         id="text5043"
+         y="1124.3812"
+         x="1271.681"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="1124.3812"
+           x="1271.681"
+           id="tspan5045"
+           sodipodi:role="line">n3</tspan></text>
+      <text
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         x="1271.681"
+         y="1124.3812"
+         id="text5047"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5049"
+           x="1271.681"
+           y="1124.3812">n3</tspan></text>
+      <g
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(914.53807,781.85807)"
+         id="g5051"
+         style="display:inline">
+        <path
+           transform="translate(94.285716,184.28571)"
+           d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+           sodipodi:ry="48.487324"
+           sodipodi:rx="48.487324"
+           sodipodi:cy="318.99142"
+           sodipodi:cx="286.88333"
+           id="path5053"
+           style="fill:url(#radialGradient5105-1);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           sodipodi:type="arc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5055"
+           y="516.64789"
+           x="357.14288"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="516.64789"
+             x="357.14288"
+             id="tspan5057"
+             sodipodi:role="line">n4</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(914.53807,781.85807)"
+         id="g5059"
+         style="display:inline">
+        <path
+           sodipodi:type="arc"
+           style="fill:url(#radialGradient5107-2);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path5061"
+           sodipodi:cx="286.88333"
+           sodipodi:cy="318.99142"
+           sodipodi:rx="48.487324"
+           sodipodi:ry="48.487324"
+           d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+           transform="translate(291.42857,184.28571)" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="554.28577"
+           y="516.64789"
+           id="text5063"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5065"
+             x="554.28577"
+             y="516.64789">n5</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5067"
+         d="m 1201.2504,969.88113 67.4847,100.83007"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5069"
+         d="m 1154.1309,973.69814 -42.562,93.19606"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5071"
+         d="m 1295.707,1159.4978 0,77.15"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5073"
+         d="m 1332.0491,1143.1092 124.4588,109.9272"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <g
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(914.53807,826.30478)"
+         id="g5075"
+         style="display:inline">
+        <path
+           transform="translate(-110,-34.28572)"
+           d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+           sodipodi:ry="48.487324"
+           sodipodi:rx="48.487324"
+           sodipodi:cy="318.99142"
+           sodipodi:cx="286.88333"
+           id="path5077"
+           style="fill:url(#radialGradient5109-4);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           sodipodi:type="arc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5079"
+           y="298.07645"
+           x="152.85713"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="298.07645"
+             x="152.85713"
+             id="tspan5081"
+             sodipodi:role="line">n2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="152.85713"
+           y="298.07645"
+           id="text5083"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5085"
+             x="152.85713"
+             y="298.07645">n2</tspan></text>
+      </g>
+      <g
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         transform="translate(918.10947,781.85807)"
+         id="g5087"
+         style="display:inline">
+        <path
+           sodipodi:type="arc"
+           style="fill:url(#radialGradient5111-5);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path5089"
+           sodipodi:cx="286.88333"
+           sodipodi:cy="318.99142"
+           sodipodi:rx="48.487324"
+           sodipodi:ry="48.487324"
+           d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+           transform="translate(-115.82601,184.28571)" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="147.03116"
+           y="516.64789"
+           id="text5091"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5093"
+             x="147.03116"
+             y="516.64789">n6</tspan></text>
+      </g>
+      <path
+         inkscape:export-ydpi="26.889999"
+         inkscape:export-xdpi="26.889999"
+         inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="polyline"
+         id="path5095"
+         d="m 1090.7936,1159.4938 -0.9991,77.158"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+    </g>
     <text
        xml:space="preserve"
-       style="font-size:35.13691711px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-71.724579"
-       y="168.9167"
-       id="text7168"
-       sodipodi:linespacing="125%"><tspan
+       style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       x="814.02606"
+       y="859.87732"
+       id="text5097"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
          sodipodi:role="line"
-         id="tspan7170"
-         x="-71.724579"
-         y="168.9167">/</tspan></text>
+         id="tspan5099"
+         x="814.02606"
+         y="859.87732">WORKSPACE 4</tspan></text>
+    <rect
+       rx="20"
+       y="797.66016"
+       x="-263.20883"
+       height="612.15247"
+       width="947.52307"
+       id="rect5113"
+       style="fill:#b7c4c8;fill-opacity:1;stroke:#374548;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       transform="translate(-171.24473,610.59049)"
+       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+       sodipodi:ry="48.487324"
+       sodipodi:rx="48.487324"
+       sodipodi:cy="318.99142"
+       sodipodi:cx="286.88333"
+       id="path5115"
+       style="fill:url(#radialGradient5181-0);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
     <text
        sodipodi:linespacing="125%"
-       id="text7172"
-       y="248.58847"
-       x="-66.413124"
-       style="font-size:35.13691711px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="248.58847"
-         x="-66.413124"
-         id="tspan7174"
-         sodipodi:role="line">/cms</tspan></text>
+       id="text5117"
+       y="943.48621"
+       x="91.255341"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="943.48621"
+         x="91.255341"
+         id="tspan5119"
+         sodipodi:role="line">n1</tspan></text>
+    <path
+       transform="translate(-49.81613,792.01906)"
+       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+       sodipodi:ry="48.487324"
+       sodipodi:rx="48.487324"
+       sodipodi:cy="318.99142"
+       sodipodi:cx="286.88333"
+       id="path5121"
+       style="fill:url(#radialGradient5183-4);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5123"
+       y="1124.3812"
+       x="213.04111"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="1124.3812"
+         x="213.04111"
+         id="tspan5125"
+         sodipodi:role="line">n3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:35.13691711px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-28.569036"
-       y="323.61273"
-       id="text7176"
-       sodipodi:linespacing="125%"><tspan
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="213.04111"
+       y="1124.3812"
+       id="text5127"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
          sodipodi:role="line"
-         id="tspan7178"
-         x="-28.569036"
-         y="323.61273">/cms/articles</tspan></text>
+         id="tspan5129"
+         x="213.04111"
+         y="1124.3812">n3</tspan></text>
+    <g
+       style="display:inline"
+       transform="translate(-144.10183,781.85807)"
+       id="g5131"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(94.285716,184.28571)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path5133"
+         style="fill:url(#radialGradient5185-9);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5135"
+         y="516.64789"
+         x="357.14288"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="516.64789"
+           x="357.14288"
+           id="tspan5137"
+           sodipodi:role="line">n4</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(-144.10183,781.85807)"
+       id="g5139"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient5187-7);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path5141"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(291.42857,184.28571)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="554.28577"
+         y="516.64789"
+         id="text5143"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5145"
+           x="554.28577"
+           y="516.64789">n5</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5147"
+       d="m 142.61056,969.88113 67.4847,100.83007"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5149"
+       d="m 95.49107,973.69814 -42.562,93.19606"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5151"
+       d="m 237.06716,1159.4978 0,77.15"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5153"
+       d="m 273.40926,1143.1092 124.4588,109.9272"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <g
+       style="display:inline"
+       transform="translate(-144.10183,826.30478)"
+       id="g5155"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(-110,-34.28572)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path5157"
+         style="fill:url(#radialGradient5189-7);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5159"
+         y="298.07645"
+         x="152.85713"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="298.07645"
+           x="152.85713"
+           id="tspan5161"
+           sodipodi:role="line">n2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="152.85713"
+         y="298.07645"
+         id="text5163"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5165"
+           x="152.85713"
+           y="298.07645">n2</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(-140.53043,781.85807)"
+       id="g5167"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient5191-9);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path5169"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(-115.82601,184.28571)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="147.03116"
+         y="516.64789"
+         id="text5171"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5173"
+           x="147.03116"
+           y="516.64789">n6</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:connector-type="polyline"
+       id="path5175"
+       d="m 32.15377,1159.4938 -0.9991,77.158"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
     <text
        sodipodi:linespacing="125%"
-       id="text7184"
-       y="428.51389"
-       x="26.537266"
-       style="font-size:35.13691711px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         y="428.51389"
-         x="26.537266"
-         id="tspan7186"
-         sodipodi:role="line">/cms/articles/&lt;node name&gt;</tspan></text>
+       id="text5177"
+       y="859.87732"
+       x="-244.61386"
+       style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="859.87732"
+         x="-244.61386"
+         id="tspan5179"
+         sodipodi:role="line">WORKSPACE 3</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Workspace"
+     style="display:inline"
+     transform="translate(319.70819,67.386833)">
+    <rect
+       style="fill:#b7c4c8;fill-opacity:1;stroke:#374548;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect4683"
+       width="947.52307"
+       height="612.15247"
+       x="-264.56894"
+       y="94.593979"
+       rx="20"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       xml:space="preserve"
+       style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       x="-245.97401"
+       y="156.81116"
+       id="text4741"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         sodipodi:role="line"
+         id="tspan4743"
+         x="-245.97401"
+         y="156.81116">WORKSPACE</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Nodes"
+     style="display:inline"
+     transform="translate(319.70819,67.386833)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 107.20655,110.53717 0,17.92614"
-       id="path7190"
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient5383);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="path4556"
+       sodipodi:cx="286.88333"
+       sodipodi:cy="318.99142"
+       sodipodi:rx="48.487324"
+       sodipodi:ry="48.487324"
+       d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+       transform="translate(-51.176248,88.952893)"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="211.68092"
+       y="421.31506"
+       id="text4558"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         sodipodi:role="line"
+         id="tspan4560"
+         x="211.68092"
+         y="421.31506">n3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4564"
+       y="421.31506"
+       x="211.68092"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         y="421.31506"
+         x="211.68092"
+         id="tspan4566"
+         sodipodi:role="line">n3</tspan></text>
+    <g
+       style="display:inline"
+       id="g4668"
+       transform="translate(-145.46197,78.791903)"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient4679-6);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path4568"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(94.285716,184.28571)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="357.14288"
+         y="516.64789"
+         id="text4570"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4572"
+           x="357.14288"
+           y="516.64789">n4</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g4663"
+       transform="translate(-145.46197,78.791903)"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(291.42857,184.28571)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path4580"
+         style="fill:url(#radialGradient4677-6);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4582"
+         y="516.64789"
+         x="554.28577"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="516.64789"
+           x="554.28577"
+           id="tspan4584"
+           sodipodi:role="line">n5</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 115.79374,214.39391 94.37347,152.32687"
+       id="path4613"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:connection-start="#path6446"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path7128"
+       inkscape:connection-end="#path4556"
        inkscape:connection-end-point="d4"
-       transform="translate(-225.10439,77.02268)" />
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 107.74731,192.19624 0.32933,19.40604"
-       id="path7192"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 115.79374,214.39391 51.568936,363.82809"
+       id="path4615"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:connection-start="#path7128"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path7136"
-       inkscape:connection-end-point="d4"
-       transform="translate(-225.10439,77.02268)" />
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 131.16607,273.20008 31.95526,42.33564"
-       id="path7194"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 235.70708,456.43164 0,77.15007"
+       id="path4617"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:connection-start="#path7136"
+       inkscape:connection-start="#path4556"
        inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path7148"
+       inkscape:connection-end="#g4668"
        inkscape:connection-end-point="d4"
-       transform="translate(-225.10439,77.02268)" />
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 88.756433,273.62611 62.706449,313.37645"
-       id="path7196"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 272.04912,440.04311 396.50789,549.97025"
+       id="path4619"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:connection-start="#path7136"
+       inkscape:connection-start="#path4556"
        inkscape:connection-start-point="d4"
-       inkscape:connection-end="#path7144"
+       inkscape:connection-end="#g4663"
        inkscape:connection-end-point="d4"
-       transform="translate(-225.10439,77.02268)" />
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <g
+       style="display:inline"
+       id="g4625"
+       transform="translate(-145.46197,123.23861)"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#radialGradient4681-6);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path4548"
+         sodipodi:cx="286.88333"
+         sodipodi:cy="318.99142"
+         sodipodi:rx="48.487324"
+         sodipodi:ry="48.487324"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         transform="translate(-110,-34.28572)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="152.85713"
+         y="298.07645"
+         id="text4550"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4552"
+           x="152.85713"
+           y="298.07645">n2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4621"
+         y="298.07645"
+         x="152.85713"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="298.07645"
+           x="152.85713"
+           id="tspan4623"
+           sodipodi:role="line">n2</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g4656"
+       transform="translate(-141.89054,78.791903)"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <path
+         transform="translate(-115.82601,184.28571)"
+         d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+         sodipodi:ry="48.487324"
+         sodipodi:rx="48.487324"
+         sodipodi:cy="318.99142"
+         sodipodi:cx="286.88333"
+         id="path4646"
+         style="fill:url(#radialGradient4661-9);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4648"
+         y="516.64789"
+         x="147.03116"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="516.64789"
+           x="147.03116"
+           id="tspan4650"
+           sodipodi:role="line">n6</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 30.793595,456.42766 -0.999048,77.15803"
+       id="path4654"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4625"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#g4656"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999" />
+    <text
+       xml:space="preserve"
+       style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+       x="314.20456"
+       y="435.02545"
+       id="text4689"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999"><tspan
+         sodipodi:role="line"
+         id="tspan4691"
+         x="314.20456"
+         y="435.02545">NODES</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Node"
+     style="display:inline"
+     transform="translate(319.70819,67.386833)">
+    <g
+       style="display:inline"
+       id="g5239"
+       inkscape:export-filename="/home/daniel/www/dantleech/reveal.js/images/repository-5.png"
+       inkscape:export-xdpi="26.889999"
+       inkscape:export-ydpi="26.889999">
+      <g
+         id="g5230">
+        <path
+           sodipodi:type="arc"
+           style="fill:url(#radialGradient4544-4);fill-opacity:1;stroke:#214478;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path4011"
+           sodipodi:cx="286.88333"
+           sodipodi:cy="318.99142"
+           sodipodi:rx="48.487324"
+           sodipodi:ry="48.487324"
+           d="m 335.37066,318.99142 c 0,26.77881 -21.70852,48.48733 -48.48733,48.48733 -26.77881,0 -48.48732,-21.70852 -48.48732,-48.48733 0,-26.7788 21.70851,-48.48732 48.48732,-48.48732 26.77881,0 48.48733,21.70852 48.48733,48.48732 z"
+           transform="translate(-172.60482,-92.475679)" />
+        <text
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="89.895164"
+           y="217.5629"
+           id="text4535"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4537"
+             x="89.895164"
+             y="217.5629">n1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.51061058px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="73.1101"
+           y="227.25349"
+           id="text4729"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="73.1101"
+             y="227.25349"
+             id="tspan4733">jcr:primaryType: article</tspan><tspan
+             sodipodi:role="line"
+             x="73.1101"
+             y="234.14175"
+             id="tspan4737">title: My Title</tspan><tspan
+             sodipodi:role="line"
+             x="73.1101"
+             y="241.03001"
+             id="tspan4739">body: Hi, this is some content</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:57.02744675px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+         x="166.88313"
+         y="243.95403"
+         id="text4718"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4720"
+           x="166.88313"
+           y="243.95403">NODE</tspan></text>
+    </g>
   </g>
 </svg>
