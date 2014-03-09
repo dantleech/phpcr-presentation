@@ -69,41 +69,45 @@
 
                 <section>
                     <section>
-                        <h3>Et une Content Repository?</h3>
-                        <h4>Une repositorie de contenu est une de:</h4>
+                        <h3>Et c'est quoi un Content Repository?</h3>
+                        <h4>Un repository de contenu est peut être:</h4>
                         <ul>
-                            <li class="fragment">Entrepôt de contenu digitale</li>
-                            <li class="fragment">Une API pour le gestion, recherche et methods d'accés et de modification de contenu</li>
-                            <li class="fragment">La façade d'une couche consacre à le stockage et gestion de contenu</li>
+                            <li class="fragment">Un entrepôt de contenu digitale</li>
+                            <li class="fragment">Une API pour le gestion, recherche et méthodes d'accès et de modification de contenu</li>
+                            <li class="fragment">La façade d'une couche qui est consacre à le stockage et gestion de contenu</li>
                         </ul>
                     </section>
                     <section>
-                        <h3>Qu'est que je peux metre dans une repositorie de contenu?</h3>
+                        <h3>Qu'est que je peux metre dans une repositotry de contenu?</h3>
                         <ul>
-                            <li>Donne structurée (nodes avec properties et enfants)</li>
-                            <li>Donne binaire (image, video, pdf, etc)</li>
+                            <li class="fragment">Données structurées (noeuds avec propriétés et enfants)</li>
+                            <li class="fragment">Données binaires (image, video, pdf, etc)</li>
                         </ul>
+                    </section>
+                    <section>
+                        <h2>Les Méthodes traditionnelles</h2>
+                        <h3>Filesystems et RDBMS's</h3>
                     </section>
                     <section>
                         <h3>Filesystems</h3>
                         <ul>
-                            <li><img src="images/tick.png" /> Bon pour le stockage de fichiers (quelle suprise)</li>
-                            <li><img src="images/cross.png" /> Mauvaise pour le stockage de donne structurisé</li>
-                            <li><img src="images/cross.png" /> Mauvaise pour l'integrité des donnes</li>
-                            <li><img src="images/tick.png" /> Super bien pour le stockage des donnes en hierarchie</li>
+                            <li><img src="images/tick.png" /> Bon pour le stockage des fichiers (quelle suprise)</li>
+                            <li><img src="images/cross.png" /> Pas concerné avec le stockage de données structurées</li>
+                            <li><img src="images/tick.png" /> Super bien pour le stockage des données hiérarchique</li>
                         </ul>
                     </section>
                     <section>
                         <h3>RDBMS (e.g. MySQL)</h3>
                         <ul>
-                            <li><img src="images/tick.png" /> Bon pour le stockage de donne structurée</li>
-                            <li><img src="images/tick.png" /> Excellente pour le integrité des donnes</li>
+                            <li><img src="images/tick.png" /> Bon pour le stockage de données structurées</li>
+                            <li><img src="images/tick.png" /> Excellente pour le integrité des données</li>
                             <li><img src="images/cross.png" /> Pas bon pour le stockage de fichiers</li>
-                            <li><img src="images/cross.png" /> Mauvaise pour le stockage des donnes en hierachié</li>
-                            <li><img src="images/cross.png" /> Mauvaise pour le stockage des donnes pas structurée</li>
+                            <li><img src="images/cross.png" /> Mauvais pour le stockage des données hiérarchique</li>
+                            <li><img src="images/cross.png" /> Mauvais pour le stockage des données pas structurées</li>
                         </ul>
                     </section>
                     <section>
+                        <h3>Meilleur des deux mondes</h3>
                         <h3>Content Repository</h3>
                         <img height="500" src="images/jcr-best-of-both-worlds.jpg" />
                         <center>(source: http://java.dzone.com/articles/java-content-repository-best)</center>
@@ -129,7 +133,8 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>Overview très vite</h2>
+                        <h2>Overview très vite des chapitres</h2>
+                        <p>Il y a les chaptitres concernant les suivantes:</p>
                         <ul>
                             <li class="fragment">Repository Model</li>
                             <li class="fragment">Connecting</li>
@@ -164,24 +169,26 @@
                     </section>
                 </section>
 
+                <!--
                 <section>
                     <h2>Points saillant</h2>
                     <ul>
-                        <li>Stocker les donnes dans une arbre (modele hierarchique)
-                        <li>Faire les references entre les nodes (modele réseau)</li>
+                        <li>Stocker les données dans une arbre (modele hierarchique)
+                        <li>Faire les références entre les noeuds (modele réseau)</li>
                         <li>Faire du versioning</li>
                         <li>Avoir plusieurs espaces du travail (staging / production)</li>
                         <li>Query - avec une globale full-text search</li>
                     </ul>
                 </section>
+                -->
 
                 <section>
                     <h2>PHPCR</h2>
                     <h3>Une implementation de JCR en PHP</h3>
                     <ul>
                         <li>Premier commit Feb 04 2008</li>
-                        <li>C'est largement une implementation exacte</li>
-                        <li>Mais il y a <a href="https://github.com/phpcr/phpcr/blob/master/doc/JCR_TO_PHPCR.txt">les petite changements</a></li>
+                        <li>C'est une implementation complet</li>
+                        <li>Mais il y a des <a href="https://github.com/phpcr/phpcr/blob/master/doc/JCR_TO_PHPCR.txt">petits changements</a></li>
                     </ul>
                 </section>
 
@@ -191,6 +198,32 @@
 
                 <section>
                     <img src="images/phpcr_model.svg"/>
+                </section>
+
+                <section>
+                    <h2>Les Implementations Actuel</h2>
+                    <ul>
+                        <li class="fragment">Jackalope</li>
+                        <ul>
+                            <li class="fragment">Un genre de "framework" pour les implementations PHPCR</li>
+                        </ul>
+                        <li class="fragment">Jackalope Jackrabbit</li>
+                        <li class="fragment">Jackalope Doctrine-Dbal</li>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Implementations en cours et speculatifs</h2>
+                    <ul>
+                        <li class="fragment"><a href="http://midgard-project.org/phpcr/">Midgard</a> <span class="fragment">(déjà commence, dernier commit il y a 6 mois)</span></li>
+                        <li class="fragment"><a href="https://github.com/jackalope/jackalope-mongodb">Jackalope MongoDB</a> <span class="fragment">(pas fini, dernier commit il y a plus qu'un an)</span></li>
+                        <li class="fragment">Implementation FS + GIT?</span> <span class="fragment">pour quoi pas..</span></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Deux exemples d'une session</h2>
+                    <h3>Avec deux implementations different</h3>
                 </section>
 
                 <section data-transition="none">
@@ -249,6 +282,9 @@ foreach ($children as $child) {
                         <h2>The Repository Model</h2>
                     </section>
                     <section data-background="#fff" data-transition="fade">
+                        <img src="images/repository-5.png"/>
+                    </section>
+                    <section data-background="#fff" data-transition="fade">
                         <img src="images/repository-0.png"/>
                     </section>
                     <section data-background="#fff" data-transition="fade">
@@ -268,25 +304,36 @@ foreach ($children as $child) {
                     </section>
                 </section>
 
+
+                <section>
+                    <h2>Quelques aspets de PHPCR</h2>
+                </section>
+
                 <section>
                     <section>
-                        <h2>Le Session</h2>
+                        <h2>La Session</h2>
                         <ul>
-                            <li>Le API session est le interface primaire de le repositorie</li>
-                            <li>Les operations sont deferred jus'que une appel au method <code>$session->save()</code> (comme le Doctrine ORMs <code>$em->flush()</code>)</li>
+                            <li class="fragment">Le API de session est l'interface primaire pour le repository</li>
+                            <li class="fragment">Il faut connecter à le session avant de faire les choses</li>
+                            <li class="fragment">Le plus part des operations sont différées jusqu'à ce que l'on appelle la méthode <code>$session->save()</code> (analogue au Doctrine ORM <code>$em->flush()</code>)</li>
                         </ul>
                     </section>
                     <section>
                         <h2>Le Session</h2>
                         <pre><code>
-// rename a node
+$session = // obtenir le session
+
+$rootNode = $session->getNode('/'); // recuperer le "root node"
+
+$newNode = $rootNode->addNode('foobar'); // creer une nouveau node avec le nom "foobar"
+
+// rename a node\a
 $session->move('/foobar', '/barfoo');
 
-// retrieve the node
-$node = $session->getNode('/barfoo');
+// a cet point les changements sont pas encore fait dans la engin de stockage
 
-// save the session (persist)
-$session->save();
+$session->save(); // pop! c'est fait
+
                         </code></pre>
                     </section>
 
@@ -296,18 +343,22 @@ $session->save();
                     <section>
                         <h2>Workspaces</h2>
                         <ul>
-                            <li class="fragment">Une workspace contient une graph des nodes</li>
-                            <li class="fragment">C'est possible d'avoir pluseiurs workspaces</li>
-                            <li class="fragment">Nodes pourrait être cloné entre les workspaces</li>
-                            <li class="fragment">Il y a une semblance avec le concepte de branches en GIT</li>
+                            <li class="fragment">Un Workspace contenant un graph des nœuds</li>
+                            <li class="fragment">C'est possible d'avoir plusieurs Workspaces</li>
+                            <li class="fragment">Nodes pourrait être cloné entre les Workspaces</li>
+                            <li class="fragment">Il y a une semblance avec le concept de branches en GIT</li>
+                            <li class="fragment">Par exemple ... </li>
                         </ul>
                     </section>
                     <section>
                         <h2>Workspaces</h2>
-                        <h3>Exemple de usage: Sandbox / Production</h2>
                         <ul>
-                            <li>Les utilisateurs pourrait faire leur modifications dans une workspace "sandbox"</li>
-                            <li>Quand les modifications sont fait, ils peuvent publier leur modifications vers l'environment de production</li>
+                            <li class="fragment">Un utilisateur a connecte à le BO de votre CMS</li>
+                            <li class="fragment">Il y a une article en ligne qui est très importante</li>
+                            <li class="fragment">Le utilisateur doit faire les modifs et montrer les modifs à son chef</li>
+                            <li class="fragment"><b>Sans</b> de modification le article en ligne</li>
+                            <li class="fragment">Les workspaces permet le utilisateur de travailleur sur son propre espace</li>
+                            <li class="fragment">Avant de "clone" (voir push, publié) son changements à production</li>
                         </ul>
                     </section>
                 </section>
@@ -316,77 +367,82 @@ $session->save();
                     <section>
                         <h2>Nodes and Properties</h2>
                         <ul>
-                            <li class="fragment">Chaque node est attribué d'une path</li>
-                            <li class="fragment">Nodes contenient les properties</li>
-                            <li class="fragment">Il y a les properties système</li>
-                            <li class="fragment">Et les properties normale</li>
-                            <li class="fragment">Properties peut utiliser les nomspaces</li>
+                            <li class="fragment">Chaque nœud est attribué d'une path</li>
+                            <li class="fragment">Nodes contenant les propriétés</li>
+                            <li class="fragment">Il y a les propriétés système</li>
+                            <li class="fragment">Et les propriétés normale</li>
+                            <li class="fragment">Chauque propriété est attribué une type</li>
+                            <li class="fragment">Les noms des propriétés peuvent utiliser les Namespaces</li>
+                            <li class="fragment">Analogie filesystem</li>
+                            <ul>
+                                <li class="fragment">Dossiers = Nodes</li>
+                                <li class="fragment">Fichiers = Properties</li>
+                            </ul>
                         </ul>
                     </section>
-                    <section data-transition="none">
+                    <section data-transition="linear">
                         <h2>Nodes and Properties</h2>
-                        <pre>
-/
-    node1/
-    |   - foobar = barfoo
-    |   - barfoo = foobar
-    |   ChildNode1/
-    |   ChildNode2/
-    article/
-        - title: Titre de mon article
-        - content: Ceci est le contenu de mon article
-        - tags: [ tag1, tag2, tag3 ]
-        comments/
-            comment1/
+                        <h3>Reperesentation en mode ASCII</h3>
+                        <pre class="fragment">
+/ (:root)
+    node1/ (nt:unstructured)
+    |   - foobar = barfoo (STRING)
+    |   - barfoo = foobar (STRING)
+    |   ChildNode1/ (nt:folder)
+    |   ChildNode2/ (nt:folder)
+    article/ (mycms:article)
+        - title: Titre de mon article (STRING)
+        - content: Ceci est le contenu de mon article (STRING)
+        - tags: [ tag1, tag2, tag3 ] (STRING[])
+        comments/ (mycms:comment))
+            comment1/ (mycms:comment)
                         </pre>
                     </section>
-                    <section data-transition="none">
+                    <section data-transition="linear">
                         <h2>Nodes and Properties</h2>
+                        <h3>Avec les types système</h3>
                         <pre>
-/
-    node1/
+/ (rep:root)
+    node1/ (nt:unstructured)
     |   - jcr:primaryType = nt:unstructured
-    |   - jcr:uuid = 842e61c0-09ab-42a9-87c0-308ccc90e6f4
-    |   - jcr:mixinTypes = [ mix:referenceable ]
+    |   - jcr:uuid = 842e61c0-09ab-42a9-87c0-308ccc90e6f4 (REFERENCE)
+    |   - jcr:mixinTypes = [ mix:referenceable ] (REFERENCE[])
     |   - foobar = barfoo
     |   - barfoo = foobar
-    |   ChildNode1/
-    |   ChildNode2/
-    article/
-        - jcr:primaryType = mon_type_article
-        - jcr:mixinTypes = [ mix:versionable, mix:lastModified ]
-        - title: Titre de mon article
-        - content: Ceci est le contenu de mon article
-        - tags: [ tag1, tag2, tag3 ]
-        comments/
-            comment1/
+    article/ (mycms:article)
+        - jcr:primaryType = mon_type_article (NAME)
+        - jcr:mixinTypes = [ mix:versionable, mix:lastModified ] (NAME[])
+        - title: Titre de mon article (STRING)
+        - content: Ceci est le contenu de mon article (STRING)
+        - tags: [ tag1, tag2, tag3 ] (STRING[])
+        comments/ (mycms:comment))
+            comment1/ (mycms:comment)
                         </pre>
-                    </section>
-
-                    <section>
-                        <h2>Node Paths</h2>
-                        <img src="images/node_hierarchy_1.svg" />
                     </section>
 
                     <section>
                         <h2>References</h2>
                         <ul>
-                            <li class="fragment">Nodes peut être "referenceable"</li>
-                            <li class="fragment">Vous pouvez ajouter le mixin <code>mixin:referenceable</code></li>
-                            <li class="fragment">Les nodes referencable sont attribué une Universally Unique Identifier (UUID)</li>
-                            <li class="fragment">Ils pourais être referencé par peu importe quelles autres nodes</li>
-                            <li class="fragment">Dans une manière "strong" ou "weak" (integrete referentiale)</li>
+                            <li class="fragment">Nœuds peuvent  être "Referenceable"</li>
+                            <li class="fragment">Avec l'addition de le Mixin <code>mixin:referenceable</code></li>
+                            <li class="fragment">Les nœuds référençables sont attribué une UUID (Universally Unique Identifier, ou identifiant universel unique)</li>
+                            <li class="fragment">Ils peuvent être référencé par n'importe quel autre nœuds dans le Repository</li>
+                            <ul>
+                                <li class="fragment">En contraste avec le paradigme typique de RDBMS</li>
+                            </ul>
+                            <li class="fragment">Les contraintes d'intégrité sont garder quand une référence est attribué une statu "STRONG" (en constrast de "WEAK")</li>
                         </ul>
                     </section>
 
                     <section>
                         <h2>References</h2>
                         <ul>
-                            <li>Exemple - catégoriés</li>
-                            <li>Vous pouvez faire une lien avec une catégorié avec peu importe quelle node</li>
+                            <li>Exemple - catégories</li>
+                            <li>Vous pouvez faire une lien avec une catégorie avec n'importe quelle nœud</li>
+                            <li>Vous pouvez faire référence à une catégorie de n'importe quel nœud</li>
                             <li>e.g. une article, une produit, une formulaire</li>
-                            <li>Brèf, si un node est referencable, il est refenceable par tout</li>
-                            <li>Parceque il est attribué une UUID</li>
+                            <li>Bref, si un nœud est referencable, il est refenceable par tout</li>
+                            <li>Parce que il est attribué une identifiant universel unique</li>
                         </ul>
                     </section>
 
@@ -396,10 +452,10 @@ $session->save();
                     <section>
                         <h2>Node Types</h2>
                         <ul>
-                            <li class="fragment">Chaque node a un type primarire</li>
-                            <li class="fragment">Node Type &lt;=&gt; Schema</li>
-                            <li class="fragment">Node types sont héritable</li>
-                            <li class="fragment">Ils héritent tous de le type nt:base</li>
+                            <li class="fragment">Node Type &lt;=&gt; Schema <span class="fragment">(moins ou plus)</span></li>
+                            <li class="fragment">Node Types sont héritable</li>
+                            <li class="fragment">Chaque nœud a un type primaire</li>
+                            <li class="fragment">Ils héritent tous de le type nt:base par exemple</li>
                         </ul>
                     </section>
                     <section>
@@ -409,31 +465,58 @@ $session->save();
                     <section>
                         <h2>Node Types</h2>
                         <ul>
-                            <li>Declarer que une propertie est requis</li>
-                            <li>Declarer que une certaine enfant est requis</li>
-                            <li>Spcifier que une propertié doit être creer automatiquement</li>
-                            <li>Enforcer le type d'une propertié</li>
-                            <li>Specifier si une properté peut avoir plusieurs valeurs</li>
-                            <li class="fragment">Elles sont analogues à notion de <code>Class</code> en PHP</li>
+                            <li>Déclarer qu'une propriété est recquis</li>
+                            <li>Déclarer qu'un certain enfant est recquis</li>
+                            <li>Spécifier que une propertié doit être crée automatiquement</li>
+                            <li>Imposer le type d'une propertié</li>
+                            <li>Spécifier si une properté peut avoir plusieurs valeurs</li>
+                            <li class="fragment">Elles sont analogues à la notion de <code>Class</code> en PHP</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Node Types</h2>
+                        <h3>Mixins</h2>
+                        <ul>
+                            <li class="fragment">Permet un genre d'héritage multiple</li>
+                            <li class="fragment">Elles sont analogues à la notion de <code>Trait</code> en PHP</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Node Types</h2>
+                        <h3>Mixins</h3>
+                        <ul>
+                            <li>nt:title</li>
+                            <li>nt:lastModified</li>
+                            <li>nt:created</li>
+                            <li>nt:versionable</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Node Types</h2>
+                        <h3>Mixins</h3>
+                        <ul>
+                            <li>-- EXAMPLE WITH PHPCR-SHELL --</li>
                         </ul>
                     </section>
 
                     <section>
                         <h2>Node Types</h2>
                         <ul>
-                            <li>Sont typiquement definé avec les fichers "CND"</li>
+                            <li>Sont typiquement définies avec les fichiers "CND"</li>
                         </ul>
                     </section>
 
                     <section>
                         <h2>CND - <a href="https://jackrabbit.apache.org/node-type-notation.html">Compact Node Type Definition</a></h2>
-                        <h3>Une "domain specific language" (DSL) pour le deifinition de node types</h3>
+                        <h3>Une notation pour le définition des types des nœuds</h3>
                     </section>
 
                     <section>
-                        <h2>Quelques node types de defaut</h2>
+                        <h2>Quelques nœud types de défaut</h2>
                         <h4>nt:base</h4>
-                        <p>Le node du minimum</p>
+                        <p>Le type du moins permissif</p>
                         <pre><code data-trim contenteditable>
     [nt:base]
     - jcr:primaryType (NAME) autocreated mandatory protected COMPUTE
@@ -441,7 +524,7 @@ $session->save();
                         </pre></code>
 
                         <h4>nt:unstructured</h4>
-                        <p>Le node du maximum</p>
+                        <p>Le type le plus permissif</p>
                         <pre><code data-trim contenteditable>
         [nt:unstructured] &gt; nt:base
         orderable
@@ -463,36 +546,14 @@ $session->save();
                         </pre></code>
                     </section>
                     <section>
-                        <h2>Mixins</h2>
-                        <ul>
-                            <li class="fragment">Permet une genre d'heritage multiple</li>
-                            <li class="fragment">Elles sont analogues à notion de <code>Trait</code> en PHP</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Mixins</h2>
-                        <ul>
-                            <li>nt:title</li>
-                            <li>nt:lastModified</li>
-                            <li>nt:created</li>
-                            <li>nt:versionable</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Mixins</h2>
-                        <ul>
-                            <li>-- EXAMPLE WITH PHPCR-SHELL --</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2>Implications ODM</h2>
+                        <h2>Implications ORM</h2>
                         <ul>
                             <li class="fragment">Node type = <code>Class</code></li>
                             <li class="fragment">Mixin = <code>Trait</code></li>
                             <li class="fragment">Hmm...</li>
                             <li class="fragment">I can see a use case here... </li>
                             <li class="fragment">Alors, moins de "parity mismatch" que de RDBMS ou MongoDB etc</li>
-                            <li class="fragment">Mais, ça c'est une autre subjet!</li>
+                            <li class="fragment">Mais, ça c'est une autre sujet!</li>
                         </ul>
                     </section>
                 </section>
@@ -501,7 +562,7 @@ $session->save();
                     <section>
                         <h2>Query</h2>
                         <ul>
-                            <li>PHPCR fournit une interface de query objet orientée</li>
+                            <li class="fragment">PHPCR fournit une interface de query objet orientée</li>
                         </ul>
                     </section>
                     <section>
@@ -512,6 +573,8 @@ $session->save();
     $queryManager = $workspace->getQueryManager();
     $qom = $queryManager->getQOMFactory();
 
+
+    // START OF QUERY
     $source = $qom->selector('s', '[nt:unstructured]');
     $constraint = $qom->comparison(
         $qom->nodeLocalName('s'),
@@ -547,31 +610,33 @@ $queryResult = $query->execute();
                 <section>
                     <section>
                         <h2>Versioning</h2>
-                        <p>Versioning est activé pour une node avec le mixin "mix:versionable"</p>
-                        <pre><code>
+                        <p class="fragment">Versioning est activé pour une node avec le mixin "mix:versionable"</p>
+                        <pre class="fragment"><code>
 $node->addMixin('mix:versionable');
                         </code></pre>
                     </section>
                     <section>
                         <h2>Versioning</h2>
                         <pre><code>
+
+// FIX ME!!
+
 $vm = $session->getWorkspace()->getVersionManager();
+
 $node = $session->getNode('/this/is/a/versionable/node');
 
 $node->setProperty('title', 'Hello World!');
+
 $session->save();
 
-// checkpoint checks in node and then checks it out again
-// -- checked out nodes are modifiable
 $vm->checkpoint($node->getPath();
 
 $vm->setProperty('title', 'Foobar');
 
-// checkin the node and leave it in a read only state
 $version = $vm->checkin($node->getPath());
+
 $previous = $version->getLinearPredecessor();
 
-// Retourn une version read-only de le node qui correspondre à cette version
 $frozenNode = $previous->getFrozenNode();
 
 echo $previous->getProperty('title');
@@ -584,15 +649,15 @@ echo $previous->getProperty('title');
                     <section>
                         <h2>Import / Export</h2>
                         <ul>
-                            <li class="fragment">Exporter les nodes à partir d'une certaine path dans l'hierarchie</li>
-                            <li class="fragment">Importer les nodes à une certataine path dans l'hierachié</li>
+                            <li class="fragment"><b>Exporter</b> les nœuds d'un certain point dans la hiérarchie de nœud</li>
+                            <li class="fragment"><b>Importer</b> les nœuds d'un certain point dans la hiérarchie de nœud</li>
                             <li class="fragment">Tous est fait dans une format XML</li>
-                            <li class="fragment">Facile de migré entre les differentes repositories</li>
+                            <li class="fragment">Facile de migrer de une implémentation repository à une autre</li>
                         </ul>
                     </section>
                     <section>
                         <h2>Import / Export</h2>
-                        <pre><code>
+                        <pre class="fragment"><code>
 $stream = fopen('my_content.xml', 'w');
 $session->exportDocumentView(
     '/path/to/what/i/want',
@@ -602,7 +667,7 @@ $session->exportDocumentView(
                     </section>
                     <section>
                         <h2>Import / Export</h2>
-                        <pre><code>
+                        <pre class="fragment"><code>
 $session->importXml('/import/to/here', 'my_content.xml');
                         </code></pre>
                     </section>
@@ -610,10 +675,10 @@ $session->importXml('/import/to/here', 'my_content.xml');
 
                 <section>
                     <section>
-                        <h2>Autre choses</h2>
+                        <h2>Autres choses</h2>
                     </section>
                     <section>
-                        <h2>Autre choses</h2>
+                        <h2>Autres choses</h2>
                         <h3>Access Control</h3>
                         <ul>
                             <li>Savori si une utilisateur a permission de faire une certaine type d'operation sur une certaine node selon le session</li>
@@ -633,13 +698,13 @@ $session->importXml('/import/to/here', 'my_content.xml');
                     </section>
                     <section>
                         <h2>Autre choses</h2>
-                        <h3>etc</h3>
+                        <h3>Voir le spec :)</h3>
                     </section>
                 </section>
 
                 <section>
                     <section>
-                        <h2>Outils de base</h2>
+                        <h2>Outils</h2>
                         <ul>
                             <li class="fragment"><a href="https://github.com/phpcr/phpcr-shell">PHPCR Shell</a>: Command-line shell</li>
                             <li class="fragment"><a href="https://github.com/marmelab/phpcr-browser">Marmelab PHPCR Browser</a>: Read-only Angular JS repository browser</li>
@@ -650,7 +715,7 @@ $session->importXml('/import/to/here', 'my_content.xml');
                         <h2>PHPCR-Shell</h2>
                         <ul>
                             <li class="fragment">Projet perso .. </li>
-                            <li class="fragment">Vise à fournir une interface CLI complèt à les repositories PHPCR</li>
+                            <li class="fragment">Vise à fournir une interface CLI complèt à les repositotrys PHPCR</li>
                             <li class="fragment">Edition avec votre editeur de shell préféré</li>
                             <li class="fragment">Inspiré par les shells de navigation <code>*sh</code> et RDBMS</li>
                             <li class="fragment">Traverse le heirachie et gerer les nodes avec les commandes du shell (<code>cd</code>, <code>ls</code>, <code>mv</code>, <code>cp</code>)</li>
@@ -667,13 +732,13 @@ PHPCR &gt; ls
 | Node / Prop  | Type            | Value |
 +--------------+-----------------+-------+
 | /            | rep:root        |       |
-|  properties/ | nt:unstructured |       |
+|  propriétés/ | nt:unstructured |       |
 +--------------+-----------------+-------+
 
 2 node(s)
-PHPCR &gt; select * from [nt:unstructured] where localname() = 'properties';
+PHPCR &gt; select * from [nt:unstructured] where localname() = 'propriétés';
 | Row: #0 Score: 2
-| Sel: nt:unstructured Path: /properties UID: none
+| Sel: nt:unstructured Path: /propriétés UID: none
 +-----------------+---------------+----------+--------------------------------------+
 | Name            | Type          | Multiple | Value                                |
 +-----------------+---------------+----------+--------------------------------------+
@@ -696,20 +761,62 @@ PHPCR &gt; select * from [nt:unstructured] where localname() = 'properties';
 
                 </section>
                 <section>
+
+                </section>
+
+                <section>
                     <section>
-                        <h2>Librariés</h2>
+                        <h2>PHPCR in the wild</h2>
+                        <img src="images/jaunty-jackalope.jpg" />
+                        <center><p class="fragment">Jackalope</p></center>
+                    </section>
+
+                    <section>
+                        <h2>ORM</h2>
+                        <img src="images/doctrine.jpg" />
+                        <h3><a href="https://github.com/doctrine/phpcr-odm">Doctrine PHPCR-ODM</a></h3>
                         <ul>
-                            <li><a href="https://github.com/doctrine/phpcr-odm">Doctrine PHPCR-ODM</a>: Object Document Mapper (Node Mapper??) for PHPCR</li>
+                            <li>ORM for PHPCR</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Framework</h2>
+                        <img src="images/cmf.png" />
+                        <ul>
+                            <li>Collecte des Bundles Symfony qui fournit les fonctionnalités CMS</li>
                         </ul>
                     </section>
 
                     <section>
-                        <h2><a href="https://cmf.symfony.com">Symfony CMF</a></h2>
+                        <h2>CMS</h2>
                         <ul>
-                            <li>Collecte des Bundle's consacre au au fonctionalitié commun des CMS</li>
-                            <li>Tout les bundles CMF support le Doctrine PHPCR-ODM</li>
+                            <li><a href="http://prestaconcept.github.io/presta-cms-core/index.html#content">PrestaCMS</a></li>
+                            <li><a href="http://www.sulu.io/#posts">SuluCMF</a></li>
+                            <li class="fragment">Your CMS here ... :)</li>
                         </ul>
                     </section>
+
+                    <section>
+                        <h2>Websites</h2>
+                        <ul>
+                            <li><a href="http://www.merchantedge.com/">Merchantedge.com</a></li>
+                            <li><a href="http://liip.ch">Liip.ch</a></li>
+                            <li><a href="http://joiz.de">Joiz.de</a></li>
+                            <li><a href="http://opendata.admin.ch/">Swiss Open Govenment Data</a></li>
+                            <li><a href="http://www.dantleech.com">dantleech.com</a>!</li>
+                            <li><a href="http://www.delindenberg.com/">http://www.delindenberg.com/</a></li>
+                            <li><a href="http://cmf.symfony.com/references">Plus ...</a></li>
+                        </ul>
+                    </section>
+
+                    w:
+                    <section>
+                        <h2>Societes</h2>
+                        <img src="images/prestaconcept-logo.png" />
+                        <img src="images/liip.png" />
+                        <img src="images/marmelab.png" />
+                    </section>
+
                 </section>
 
                 <section>
@@ -717,13 +824,16 @@ PHPCR &gt; select * from [nt:unstructured] where localname() = 'properties';
                 </section>
 
                 <section>
-                    <h2>References and Resources</h2>
+                    <h2>Références et ressources</h2>
                     <ul>
+                        <li><a href="http://phpcrtalk.dantleech.com">This Talk</a></li>
                         <li><a href="http://java.dzone.com/articles/java-content-repository-best">JCR - Best of both worlds (with nice diagram)</a></li>
                         <li><a href="http://wiki.apache.org/jackrabbit/NodeTypeRegistry">Built in node types (jackrabbit wiki)</a></li>
                         <li><a href="http://staging.yproximite.fr/nagios3/">Marmelab PHPCR Browser</a></li>
                         <li><a href="https://github.com/phpcr/phpcr-shell">PHPCR Shell</a></li>
                     </ul>
+                    <center>@dantleech</center>
+
                 </section>
 </div>
 

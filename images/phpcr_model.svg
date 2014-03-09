@@ -158,7 +158,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -314,7 +314,7 @@
          sodipodi:role="line">APPLICATION</tspan></text>
     <path
        style="fill:#ff5555;fill-opacity:1;stroke:#2b0000;stroke-width:0.61360705;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 304.1476,484.57466 0,59.10638 -18.25481,0 16.29894,28.22592 16.27976,28.22593 16.29894,-28.22593 16.29894,-28.22592 -19.75048,0 0,-59.10638 z"
+       d="m 308.18821,592.05167 0,-59.10638 -18.25481,0 16.29894,-28.22592 16.27976,-28.22593 16.29894,28.22593 16.29894,28.22592 -19.75048,0 0,59.10638 z"
        id="path3873"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
