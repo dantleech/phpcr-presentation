@@ -203,12 +203,12 @@
                 <section>
                     <h2>Les Implementations Actuel</h2>
                     <ul>
-                        <li class="fragment">Jackalope</li>
+                        <li class="fragment"><a href="https://github.com/jackalope/jackalope">Jackalope</a></li>
                         <ul>
                             <li class="fragment">Un genre de "framework" pour les implementations PHPCR</li>
                         </ul>
-                        <li class="fragment">Jackalope Jackrabbit</li>
-                        <li class="fragment">Jackalope Doctrine-Dbal</li>
+                        <li class="fragment">Jackalope Jackrabbit: Il stock les données sur serveur Apache Jackrabbit en utilisant une implementation PHP du protocol WebDAV/davex.
+                        <li class="fragment">Jackalope Doctrine-Dbal: Il utilise le couche d'abstraction BDD Doctrine pour echanger avec n'importe quelle BDD soutenu par Doctrine
                         </ul>
                     </ul>
                 </section>
@@ -355,10 +355,10 @@ $session->save(); // pop! c'est fait
                         <ul>
                             <li class="fragment">Un utilisateur a connecte à le BO de votre CMS</li>
                             <li class="fragment">Il y a une article en ligne qui est très importante</li>
-                            <li class="fragment">Le utilisateur doit faire les modifs et montrer les modifs à son chef</li>
-                            <li class="fragment"><b>Sans</b> de modification le article en ligne</li>
-                            <li class="fragment">Les workspaces permet le utilisateur de travailleur sur son propre espace</li>
-                            <li class="fragment">Avant de "clone" (voir push, publié) son changements à production</li>
+                            <li class="fragment">L'utilisateur doit faire les modifs et montrer les modifs à son chef</li>
+                            <li class="fragment"><b>Sans</b> modifier le article en ligne</li>
+                            <li class="fragment">Les workspaces permet à l'utilisateur de travailler sur son propre espace</li>
+                            <li class="fragment">Avant de "clone" (voir push, publié) son changements à environnement live</li>
                         </ul>
                     </section>
                 </section>
@@ -367,11 +367,11 @@ $session->save(); // pop! c'est fait
                     <section>
                         <h2>Nodes and Properties</h2>
                         <ul>
-                            <li class="fragment">Chaque nœud est attribué d'une path</li>
+                            <li class="fragment">Chaque nœud est attribué d'une path (e.g. /cms/foobar/my-node)</li>
                             <li class="fragment">Nodes contenant les propriétés</li>
                             <li class="fragment">Il y a les propriétés système</li>
                             <li class="fragment">Et les propriétés normale</li>
-                            <li class="fragment">Chauque propriété est attribué une type</li>
+                            <li class="fragment">Chaque propriété est attribué une type</li>
                             <li class="fragment">Les noms des propriétés peuvent utiliser les Namespaces</li>
                             <li class="fragment">Analogie filesystem</li>
                             <ul>
@@ -424,7 +424,6 @@ $session->save(); // pop! c'est fait
                         <h2>References</h2>
                         <ul>
                             <li class="fragment">Nœuds peuvent  être "Referenceable"</li>
-                            <li class="fragment">Avec l'addition de le Mixin <code>mixin:referenceable</code></li>
                             <li class="fragment">Les nœuds référençables sont attribué une UUID (Universally Unique Identifier, ou identifiant universel unique)</li>
                             <li class="fragment">Ils peuvent être référencé par n'importe quel autre nœuds dans le Repository</li>
                             <ul>
@@ -551,8 +550,7 @@ $session->save(); // pop! c'est fait
                             <li class="fragment">Node type = <code>Class</code></li>
                             <li class="fragment">Mixin = <code>Trait</code></li>
                             <li class="fragment">Hmm...</li>
-                            <li class="fragment">I can see a use case here... </li>
-                            <li class="fragment">Alors, moins de "parity mismatch" que de RDBMS ou MongoDB etc</li>
+                            <li class="fragment">Alors, le mapping est plus isomorphique que avec une RDBMS</li>
                             <li class="fragment">Mais, ça c'est une autre sujet!</li>
                         </ul>
                     </section>
